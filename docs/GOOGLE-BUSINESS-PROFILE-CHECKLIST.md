@@ -14,8 +14,7 @@ Use this **after** the website is live and Search Console is verified.
   name** with the Oregon Secretary of State (Corporation Division) before creating the profile.
 - **Business type:** **Local store / storefront**: clients visit the office during the posted
   hours. Google requires a **complete, real street address that is staffed during those hours**.
-  The website currently shows **address placeholders**. Fill in the real street address (with
-  suite) and ZIP in `site.config.mjs` first, so the site and the profile match exactly.
+- **Address:** **521 SW 11th Ave, Portland, OR 97205**, entered exactly as on the website. If the office has a suite number, add it to both.
 - **Phone:** **(971) 213-7264**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.
 - **Primary category:** **Financial consultant**.

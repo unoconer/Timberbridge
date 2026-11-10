@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // [REQUIRED] real, staffed office only — include suite/floor
+      streetAddress: '521 SW 11th Ave', // real, staffed office — add suite if any
       addressLocality: 'Portland',
       addressRegion: 'OR',
-      postalCode: null, // [REQUIRED]
+      postalCode: '97205',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only

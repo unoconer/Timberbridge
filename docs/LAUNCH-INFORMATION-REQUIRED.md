@@ -8,7 +8,7 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 - [x] Phone: **(971) 213-7264**
 - [x] Site URL: `https://timberbridge.netlify.app`
 - [x] Hours: **Monday–Friday, 9:00 AM – 5:00 PM (Pacific Time)**, office meetings by appointment
-- [x] Business type: **storefront office** in Portland, OR (Google Business Profile "Local store")
+- [x] Business type: **storefront office** at **521 SW 11th Ave, Portland, OR 97205** (Google Business Profile "Local store")
 - [x] Services confirmed: plan setup, records and valuations, Form 5500-EZ preparation, ongoing
       support, Self-Directed and Solo 401(k) education, and office meetings
 - [x] Role: administrative support alongside the client's plan provider, at the sponsor's
@@ -20,8 +20,6 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 
 | Item | Notes |
 |---|---|
-| **Office street address** | `business.address.streetAddress`, including suite or floor. Must be a real office staffed during the posted hours; no virtual office or mailbox. Currently a visible placeholder. |
-| **ZIP code** | `business.address.postalCode`. Currently a visible placeholder. |
 | **Register the business name** | Oregon assumed business name with the Secretary of State (Corporation Division). Then set `business.publicNameConfirmed: true`. Check the Oregon business registry, the USPTO and Google Maps for "Timberbridge" conflicts first. |
 
 Optional: `business.geo` with the office's real coordinates.

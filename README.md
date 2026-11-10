@@ -8,7 +8,7 @@ to **Netlify** at `https://timberbridge.netlify.app`.
 
 ```bash
 node build.mjs          # builds ./dist; checks internal links; lists missing info
-STRICT=1 node build.mjs # pre-launch check (fails while placeholders remain)
+STRICT=1 node build.mjs # pre-launch check
 ```
 
 ## Deploy to Netlify
@@ -25,11 +25,11 @@ Services · How it works · Who does what · 401(k) basics · FAQ · About · Vi
 `/privacy-policy/`, `/terms/` and `/disclosures/` are separate pages under Oregon law
 plus `/thank-you/` and `404.html`.
 
-## Office address (placeholder)
+## Office
 
-Timberbridge is set up as a **storefront office** (`locationType: 'office'`). Until
-`business.address.streetAddress` and `postalCode` are filled in, the page shows yellow placeholder
-tags and outputs no map or storefront schema. Phone: (971) 213-7264.
+Timberbridge is a **storefront office** (`locationType: 'office'`) at **521 SW 11th Ave, Portland,
+OR 97205**, phone **(971) 213-7264**. The address shows in the hero card, footer and contact
+section, with a map and storefront structured data. Keep it identical to the Google Business Profile.
 
 ## Design
 
