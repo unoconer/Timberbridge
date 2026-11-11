@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://timberbridge.netlify.app', // no trailing slash
-    googleSiteVerification: 'I8NBN88gNcR5-jfSRhMA34jQtlupPgNXaFmeUScA11E', // Search Console HTML-tag "content" value
+    googleSiteVerification: null, // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
